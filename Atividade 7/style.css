@@ -1,0 +1,35 @@
+body{
+background-color: black;
+align-items: center;
+display: flex;
+justify-content: center;
+height: 100vh;
+}
+
+.box{
+width: 0;
+height: 0;
+background-color: antiquewhite;
+animation: box1 4s infinite linear;
+}
+
+@keyframes box1 {
+0%{
+        width: 0;
+        height: 0;
+        background-color: antiquewhite; 
+    }
+
+50%{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+100%{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+    
+}

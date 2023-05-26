@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.caixa{
+    height: 200px;
+width: 200px;
+background-color: black;
+position: relative;
+animation: caixa2 4s linear infinite;
+
+}
+
+@keyframes caixa2 {
+    0% {
+      transform: rotate(45deg);
+      background-color: blanchedalmond;
+    }
+    12.5% {
+      background-color: black;
+    }
+    25% {
+      background-color: gray;
+    }
+    37.5% {
+      background-color: violet;
+    }
+    50% {
+      background-color: lightblue;
+    }
+    62.5% {
+      background-color:black;
+    }
+    75% {
+      background-color: purple;
+    }
+    87.5% {
+      background-color: burlywood;
+    }
+    100% {
+      transform: rotate(360deg);
+      background-color: blue;
+    }
+}

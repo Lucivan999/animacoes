@@ -1,0 +1,19 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.quadrado{
+    display: flex;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.quadrado:hover{
+    background-color: indianred;
+
+}

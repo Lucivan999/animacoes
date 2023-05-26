@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #537188;
+}
+
+.circulo {
+    width: 250px;
+    height: 250px;
+    background-color: #CBB279;
+    border-radius: 150px;
+    animation: circulo-pulsar 4s infinite ease-in;
+}
+
+@keyframes circulo-pulsar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

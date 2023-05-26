@@ -1,0 +1,26 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh; 
+
+}
+
+.circulo{
+height: 200px;
+width: 200px;
+background-color: black;
+border-radius: 100px;
+position: relative;
+animation: circuloo 4s infinite;
+}
+
+@keyframes circuloo {
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 500px;
+    }
+    
+}

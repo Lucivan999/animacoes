@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #394867;
+}
+
+.imagemm img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  animation: imagema 5s infinite;
+
+}
+
+@keyframes imagema {
+  0% {
+    position: fixed;
+    top: 50%;
+    /*quanto mais, ele desce*/
+    left: 50%;
+    /*mais ele vai para esquerda, deixo no centro*/
+    transform: translate(-30%, -50%);
+    width: 200px;
+    height: 200px;
+  }
+
+  100% {
+    position: fixed;
+    top: 1px;
+    /*manda a imagem para o topo esquedo*/
+    left: 1px;
+    /*manda a imagem para o topo esquedo*/
+    width: 70px;
+    height: 70px;
+  }
+}

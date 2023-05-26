@@ -1,0 +1,52 @@
+.circulo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    animation: quicar 2s linear infinite;
+    position: relative;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 35vh;
+}
+@keyframes quicar{
+    0%{
+        transform: translateY(0);
+        left: 0;
+    }
+    10%{
+        transform: translateY(-200px);
+        left: 100px;
+    }
+    20%{
+        transform: translateY(0);
+        left: 200px;
+    }
+    30% {
+        transform: translateY(-200px);
+        left: 300px;
+        }
+    
+    40% {
+        transform: translateY(0);
+        left: 400px;
+        }
+    
+    50% {
+        transform: translateY(-200px);
+        left: 500px;
+        }
+
+    60% {
+        transform: translateY(0);
+        left: 600px;
+    }
+
+    50% {
+        transform: translateY(-200px);
+        left: 700px;
+         }
+}

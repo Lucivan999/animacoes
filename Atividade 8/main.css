@@ -1,0 +1,34 @@
+body{
+    background-color: #482121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: #47A992;
+    border-radius: 100px;
+    animation: circleeee 2s infinite linear;
+}
+
+@keyframes circleeee {
+    0%{
+        transform:scale(1);
+        opacity: 1;
+
+    }
+    50%{
+        transforme:scale(1.2);
+        opacity: 00.1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
